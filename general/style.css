@@ -1,0 +1,107 @@
+/* --- HEAD ---*/
+
+
+
+
+div.relative {
+    position: relative;
+}
+
+/* --- TOP MENU --- */
+
+
+
+ul.left {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    width: 1024px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.left {
+    float: left;
+}
+
+li.left a {
+    display: block;
+    color: white;
+    position: relative; left: 200px;
+    text-align: center;
+    padding: 25px 14px;
+    text-decoration: none; 
+}
+
+li.left a:hover {
+    background-color: #111;
+}
+
+
+li.right {
+    float: right;
+    display: inline-block;
+}
+
+li.right a {
+    display: block;
+    color: white;
+    position: relative; right: 200px;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+
+
+li.right a:hover {
+    background-color: #111;
+}
+
+/* --- PORTFOLIO --- */
+
+/* --- ABOUT ME --- */
+
+img.background-about {
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    color: white;    
+}
+img.me {
+    position: relative;
+    align-content: center;
+   
+    
+}
+
+
+/* --- Concact --- */
+
+
+img.background-concact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: relative
+}
+
+
+
+
+
+img.background-footer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: relative
+        
+}
