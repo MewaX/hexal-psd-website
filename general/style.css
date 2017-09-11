@@ -63,13 +63,19 @@ li.right a:hover {
 
 /* --- ABOUT ME --- */
 
-img.background-about {
-    
-    top: 0;
-    left: 0;
-    right: 0;
+#about {
     position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
 }
+
+#img2 {
+    position: absolute;
+    left: 90px;
+    top: 25px;
+}
+
 
 h1 {
     position: absolute;
@@ -87,7 +93,7 @@ img.me {
 
 
 img.background-concact {
-    position: absolute;
+    
     top: 0;
     left: 0;
     right: 0;
@@ -99,7 +105,7 @@ img.background-concact {
 
 
 img.background-footer {
-    position: absolute;
+    
     top: 0;
     left: 0;
     position: relative
