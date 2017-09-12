@@ -13,6 +13,7 @@ div.relative {
 
 ul.left {
     list-style-type: none;
+    position: relative;
     float: left;
     margin: 0;
     padding: 0;
@@ -20,6 +21,8 @@ ul.left {
     width: 1024px;
     overflow: hidden;
     background-color: #333;
+   
+    
 }
 
 li.left {
@@ -33,6 +36,7 @@ li.left a {
     text-align: center;
     padding: 25px 14px;
     text-decoration: none; 
+    
 }
 
 li.left a:hover {
@@ -52,6 +56,7 @@ li.right a {
     text-align: center;
     padding: 25px 16px;
     text-decoration: none;
+    
 }
 
 
@@ -59,11 +64,21 @@ li.right a:hover {
     background-color: #111;
 }
 
+/* logo {                                     dodaj logo in up
+   
+    position: static;
+    
+   background-position: center;
+    z-index: 1;
+}
+
 /* --- PORTFOLIO --- */
 .background-port {
-    position: relative;
-    top: 0;
-    left: 0;
+    position: static;
+    
+    
+    
+    
 }
 
 
@@ -75,7 +90,7 @@ li.right a:hover {
     width: 1024px;
     margin: 0;
     padding: 0;
-    height: 320px;
+    height: 340px;
     top: 0;
     left: 0;
 }
@@ -90,12 +105,12 @@ li.right a:hover {
 div.tekst-about-me {
     position: absolute;
     color: white;
-    text-align: inherit;
+    text-align: justify;
     font-size: 12px;
     top: 60px;
     left: 300px;
     height: 250px;
-    margin-right: 50px;
+    margin-right: 150px;
     margin-bottom: 50px;
     padding: inherit;
 }
@@ -104,16 +119,123 @@ div.tekst-about-me {
 /* --- Concact --- */
 
 
-img.background-concact {
-    width: 100%;
+.contact {
+    position: relative;
+    background-color: #323232;
+    width: 1024px;
+    height: 560px;
     top: 0;
     left: 0;
+    margin: 0;
+}
+
+#contact-text {
+    color: white;
     
 }
 
+div.form-a {
+    position: absolute;
+    left: 120px;
+    top: 65px;
+    margin-right: 40px;
+}
 
+div.form-a form {
+   
+}
 
+.input-name {
+    background-color: #454545;
+    padding:15px; /* dodajemy margines wewnątrz naszego pola */
+	border:0px solid #454545; /* dodajemy obramowanie */
+	margin-bottom: 15px; /* dodajemy margines dolny */
+	width:580px;
+    height: 38px;
+    
+}
+.input-email {
+    background-color: #454545;
+    padding:15px;
+    border:0px solid #454545;
+    width:580px;
+    height: 38px;
+	margin-top: 0;
+	margin-bottom:15px;
+}
 
+.input-subject {
+    background-color: #454545;
+    padding:15px;
+    border:0px solid #454545;
+    width:580px;
+    height: 38px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.input-message {
+    background-color: #454545;
+    padding:15px;
+    border:0px solid #454545;
+    width:580px;
+    height: 150px;
+	margin-top: 0;
+	margin-bottom:15px;  
+}
+#submit {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    background-color:#2eb398;
+    border:0px solid #2eb398;
+    height: 40px;
+    width: 90px;
+    cursor: pointer; 
+    left: 490px;
+    top: 390px;
+}
+
+#contact-info {
+    position: absolute;
+    color: gainsboro;
+    text-align: justify;
+    font-size: 14px;
+    top: 65px;
+    right: 40px;
+    
+    margin-left: 600px;
+    margin-right: 40px;
+    
+}
+    
+#contact-adres {
+    position: absolute;
+    color: gainsboro;
+    font-size: 14px;
+    top: 220px;
+    margin-right: 70px;
+    left: 620px;   
+    
+}
+
+#contact-phone {
+    position: absolute;
+    color: gainsboro;
+    font-size: 14px;
+    top: 250px;
+    right: 70px;
+    left: 620px;   
+    
+}
+#contact-mail {
+    position: absolute;
+    color: gainsboro;
+    font-size: 14px;
+    top: 280px;
+    left: 620px;
+       
+    
+}
 
 img.background-footer {
     
@@ -121,4 +243,22 @@ img.background-footer {
     left: 0;
     position: relative
         
+}
+
+
+/*--- FOOTER ---*/
+
+
+.background-footer {
+    
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 45px;
+    width: 1024px;
+    
+    
+    
+    
+    
 }
