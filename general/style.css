@@ -60,32 +60,44 @@ li.right a:hover {
 }
 
 /* --- PORTFOLIO --- */
+.background-port {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
 
 /* --- ABOUT ME --- */
 
-#about {
+.about-me {
     position: relative;
-    left: 0;
+    background-color:#2eb398;
+    width: 1024px;
+    margin: 0;
+    padding: 0;
+    height: 320px;
     top: 0;
-    bottom: 0;
+    left: 0;
 }
 
-#img2 {
+.image-me {
     position: absolute;
     left: 90px;
     top: 25px;
 }
 
 
-h1 {
+div.tekst-about-me {
     position: absolute;
-    color: white;    
-}
-img.me {
-    position: relative;
-    align-content: center;
-   
-    
+    color: white;
+    text-align: inherit;
+    font-size: 12px;
+    top: 60px;
+    left: 300px;
+    height: 250px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: inherit;
 }
 
 
@@ -93,11 +105,10 @@ img.me {
 
 
 img.background-concact {
-    
+    width: 100%;
     top: 0;
     left: 0;
-    right: 0;
-    position: relative
+    
 }
 
 
