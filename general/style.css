@@ -24,45 +24,54 @@ ul.menu {
     overflow: inherit;
     background-color: #333;   
 }
+li.op1 a {
+	color: #2eb398;
+	float: left;
+	display: inline-block;
+	position: relative; left: 25%;
+	text-align: center;
+    padding: 25px 14px;
+    text-decoration: none;
+}
+li.op2 a {
+	color: white;
+	float: left;
+	display: inline-block;
+	position: relative; left: 25%;
+	text-align: center;
+    padding: 25px 14px;
+    text-decoration: none;
+}
+li.op3 a {
+	color: white;
+	float: left;
+	display: inline-block;
+	position: relative; left: 25%;
+	text-align: center;
+    padding: 25px 14px;
+    text-decoration: none;
+}
+li.op4 a {
+	color: white;
+	float: left; 
+	display: inline-block;
+	position: relative; left: 25%;
+	text-align: center;
+    padding: 25px 14px;
+    text-decoration: none;
+	margin-right: inherit;
+}
+
 
 img.logo {
-	position: relative;
-	left: 280px;
-	object-position: center;
+	position: relative; left: 25%;
+	float: left;
+	top: 0;
+	
+	z-index: 1;
 	
 	
 }
-
-li.left {
-    float: left;
-}
-
-li.left a {
-    display: inline-block;
-    color: white;
-    position: relative; left: 220px;
-    text-align: center;
-    padding: 25px 14px;
-    text-decoration: none;   
-}
-
-li.right {
-    float: right;
-    display: inline-block;
-	;
-}
-
-li.right a {
-    display: inline-block;
-    color: white;
-    position: relative; right: 200px;
-    text-align: center;
-    padding: 25px 16px;
-    text-decoration: none;
-    
-}
-
-
 
 /* --- PORTFOLIO --- */
 .background-port {
