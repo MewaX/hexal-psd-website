@@ -11,18 +11,26 @@ div.relative {
 
 
 
-ul.left {
+
+
+ul.menu {
     list-style-type: none;
     position: relative;
     float: left;
     margin: 0;
     padding: 0;
     height: 60px;
-    width: 1024px;
-    overflow: hidden;
-    background-color: #333;
-   
-    
+    width: 100%;
+    overflow: inherit;
+    background-color: #333;   
+}
+
+img.logo {
+	position: relative;
+	left: 280px;
+	object-position: center;
+	
+	
 }
 
 li.left {
@@ -30,27 +38,22 @@ li.left {
 }
 
 li.left a {
-    display: block;
+    display: inline-block;
     color: white;
-    position: relative; left: 200px;
+    position: relative; left: 220px;
     text-align: center;
     padding: 25px 14px;
-    text-decoration: none; 
-    
+    text-decoration: none;   
 }
-
-li.left a:hover {
-    background-color: #111;
-}
-
 
 li.right {
     float: right;
     display: inline-block;
+	;
 }
 
 li.right a {
-    display: block;
+    display: inline-block;
     color: white;
     position: relative; right: 200px;
     text-align: center;
@@ -60,39 +63,32 @@ li.right a {
 }
 
 
-li.right a:hover {
-    background-color: #111;
-}
-
-/* logo {                                     dodaj logo in up
-   
-    position: static;
-    
-   background-position: center;
-    z-index: 1;
-}
 
 /* --- PORTFOLIO --- */
 .background-port {
     position: static;
-    
-    
-    
-    
+	width: 100%;  
 }
-
 
 /* --- ABOUT ME --- */
 
 .about-me {
     position: relative;
     background-color:#2eb398;
-    width: 1024px;
+    width: auto;
     margin: 0;
     padding: 0;
     height: 340px;
     top: 0;
     left: 0;
+}
+.socialmedia {
+	position: absolute;
+	float: left; margin: 0;
+	bottom: 25px;
+	right: 50px;
+	border: 0;
+	
 }
 
 .image-me {
@@ -111,7 +107,7 @@ div.tekst-about-me {
     left: 300px;
     height: 250px;
     margin-right: 150px;
-    margin-bottom: 50px;
+    
     padding: inherit;
 }
 
@@ -122,12 +118,13 @@ div.tekst-about-me {
 .contact {
     position: relative;
     background-color: #323232;
-    width: 1024px;
+    width: auto;
     height: 560px;
     top: 0;
     left: 0;
     margin: 0;
 }
+
 
 #contact-text {
     color: white;
@@ -145,16 +142,18 @@ div.form-a form {
    
 }
 
-.input-name {
+#name {
+	position: re;
     background-color: #454545;
     padding:15px; /* dodajemy margines wewnątrz naszego pola */
 	border:0px solid #454545; /* dodajemy obramowanie */
 	margin-bottom: 15px; /* dodajemy margines dolny */
 	width:580px;
     height: 38px;
+	
     
 }
-.input-email {
+#email {
     background-color: #454545;
     padding:15px;
     border:0px solid #454545;
@@ -164,7 +163,7 @@ div.form-a form {
 	margin-bottom:15px;
 }
 
-.input-subject {
+#subject {
     background-color: #454545;
     padding:15px;
     border:0px solid #454545;
@@ -173,7 +172,7 @@ div.form-a form {
 	margin-top: 0;
 	margin-bottom: 15px;
 }
-.input-message {
+#message {
     background-color: #454545;
     padding:15px;
     border:0px solid #454545;
@@ -202,7 +201,6 @@ div.form-a form {
     font-size: 14px;
     top: 65px;
     right: 40px;
-    
     margin-left: 600px;
     margin-right: 40px;
     
@@ -214,7 +212,7 @@ div.form-a form {
     font-size: 14px;
     top: 220px;
     margin-right: 70px;
-    left: 620px;   
+    left: 600px;   
     
 }
 
@@ -224,7 +222,7 @@ div.form-a form {
     font-size: 14px;
     top: 250px;
     right: 70px;
-    left: 620px;   
+    left: 600px;   
     
 }
 #contact-mail {
@@ -232,16 +230,17 @@ div.form-a form {
     color: gainsboro;
     font-size: 14px;
     top: 280px;
-    left: 620px;
+    left: 600px;
        
     
 }
 
 img.background-footer {
-    
+	position: relative;
+    width: 100%;
     top: 0;
     left: 0;
-    position: relative
+    
         
 }
 
@@ -249,13 +248,7 @@ img.background-footer {
 /*--- FOOTER ---*/
 
 
-.background-footer {
-    
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 45px;
-    width: 1024px;
+
     
     
     
