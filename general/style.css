@@ -7,15 +7,10 @@ html. body {
 
 
 div.relative {
-    position: relative;
-	
-	
+    position: relative;		
 }
 
 /* --- TOP MENU --- */
-
-
-
 
 
 ul.menu {
@@ -75,7 +70,6 @@ img.logo {
 	
 	z-index: 1;
 	
-	
 }
 
 /* --- PORTFOLIO --- */
@@ -109,8 +103,6 @@ img.logo {
 	right: 0;
 	border: 0;
 	margin-right: 150px;
-	
-	
 }
 
 .image-me {
@@ -133,10 +125,7 @@ div.tekst-about-me {
   	margin-left: 360px;
 	margin-bottom: 50px;
 	overflow: hidden;
-    
-    
 }
-
 
 /* --- Concact --- */
 
@@ -260,12 +249,9 @@ div.form-a form {
     color: gainsboro;
     font-size: 14px;
     top: 345px;
-    left: 740px;
-       
+    left: 740px; 
     
 }
-
-
 
 /*--- FOOTER ---*/
 
@@ -285,6 +271,5 @@ footer {
 	color: gray;
 	left: 15px;
 	top: 15px;
-
-		
+	
 }
