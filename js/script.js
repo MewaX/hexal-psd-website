@@ -29,6 +29,20 @@ function check_info() {
 }
 
 /*
+
+$(function() {
+	$('#submit-from').validate({
+		rules: {
+			email: {
+				required: true,
+				email: true,
+			}
+		}
+	});
+});
+*/
+
+/*
 function maxSizeSubject() {
 	var max=60
 	 
@@ -40,3 +54,11 @@ if ( subjesct.value.length > max )
 	
 }
 */
+
+/*function mail_check() {
+    var reg = '/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/';
+    if(!reg.test())
+		alert('wpisz poprawny email')
+        return false;
+    else
+        return true;*/

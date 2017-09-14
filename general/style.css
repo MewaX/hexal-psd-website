@@ -1,10 +1,15 @@
 /* --- HEAD ---*/
-
+html. body {
+	margin: 0;
+	padding: 0;
+}
 
 
 
 div.relative {
     position: relative;
+	
+	
 }
 
 /* --- TOP MENU --- */
@@ -90,20 +95,30 @@ img.logo {
     height: 340px;
     top: 0;
     left: 0;
+	
+}
+#character {
+	font-size: 20px;
+	color: #20816d;
+	margin-top: 0px;
 }
 .socialmedia {
 	position: absolute;
-	float: left; margin: 0;
+	float: left; 
 	bottom: 25px;
-	right: 50px;
+	right: 0;
 	border: 0;
+	margin-right: 150px;
+	
 	
 }
 
 .image-me {
     position: absolute;
-    left: 90px;
-    top: 25px;
+    left: 120px;
+    top: 20px;
+	z-index: 1;
+	overflow: hidden;
 }
 
 
@@ -112,12 +127,14 @@ div.tekst-about-me {
     color: white;
     text-align: justify;
     font-size: 12px;
-    top: 60px;
-    left: 300px;
+    top: 50px;
+    right: 150px;
     height: 250px;
-    margin-right: 150px;
+  	margin-left: 360px;
+	margin-bottom: 50px;
+	overflow: hidden;
     
-    padding: inherit;
+    
 }
 
 
@@ -154,9 +171,10 @@ div.form-a form {
 #name {
 	position: re;
     background-color: #454545;
-    padding:15px; /* dodajemy margines wewnątrz naszego pola */
-	border:0px solid #454545; /* dodajemy obramowanie */
-	margin-bottom: 15px; /* dodajemy margines dolny */
+	color: white;
+    padding:15px; 
+	border:0px solid #454545; 
+	margin-bottom: 15px; 
 	width:580px;
     height: 38px;
 	
@@ -164,6 +182,7 @@ div.form-a form {
 }
 #email {
     background-color: #454545;
+	color: white;
     padding:15px;
     border:0px solid #454545;
     width:580px;
@@ -174,6 +193,7 @@ div.form-a form {
 
 #subject {
     background-color: #454545;
+	color: white;
     padding:15px;
     border:0px solid #454545;
     width:580px;
@@ -183,6 +203,7 @@ div.form-a form {
 }
 #message {
     background-color: #454545;
+	color: white;
     padding:15px;
     border:0px solid #454545;
     width:580px;
@@ -208,10 +229,10 @@ div.form-a form {
     color: gainsboro;
     text-align: justify;
     font-size: 14px;
-    top: 65px;
-    right: 40px;
-    margin-left: 600px;
-    margin-right: 40px;
+   	top: 125px;
+	left: 740px;
+	margin-right: 150px
+
     
 }
     
@@ -219,9 +240,9 @@ div.form-a form {
     position: absolute;
     color: gainsboro;
     font-size: 14px;
-    top: 220px;
+    top: 285px;
     margin-right: 70px;
-    left: 600px;   
+    left: 740px;   
     
 }
 
@@ -229,38 +250,41 @@ div.form-a form {
     position: absolute;
     color: gainsboro;
     font-size: 14px;
-    top: 250px;
+    top: 315px;
     right: 70px;
-    left: 600px;   
+    left: 740px;   
     
 }
 #contact-mail {
     position: absolute;
     color: gainsboro;
     font-size: 14px;
-    top: 280px;
-    left: 600px;
+    top: 345px;
+    left: 740px;
        
     
 }
 
-img.background-footer {
-	position: relative;
-    width: 100%;
-    top: 0;
-    left: 0;
-    
-        
-}
 
 
 /*--- FOOTER ---*/
 
+footer {
+	position: relative;
+	clear: both;
+	background-color: #222222;
+	height: 40px;
+	width: 100%;
+	top: 0;
+	left: 0;	
+}
 
+#copiright {
+	position: absolute;
+	font-size: 10px;
+	color: gray;
+	left: 15px;
+	top: 15px;
 
-    
-    
-    
-    
-    
+		
 }

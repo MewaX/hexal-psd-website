@@ -13,7 +13,7 @@
     
     
     <body>
-      <!--  <img class="img-fluid logo" src="image/logo.png"> -->
+      
           <div class="container relative">  
             
 			<div class="topmenu">	  
@@ -32,23 +32,25 @@
         
         
         <div class="container about-me">
-         
-            <div class="row">
-                <div class="col-xs-10 hidden-md-up">
-                    <img class="img-fluid image-me" src="image/me.png">
-					<div class="col-xs-10">
+        <!-- <div class=".hidden-xs-down .hidden-sm-down"></div>-->
+                        <div>
+                    		<img class="img-fluid image-me" src="image/me.png">
+						</div> 
                    		<div class="tekst-about-me">
-							<h1>Smith Anderson</h1>   
-							<sup><font size="4,5"><font color="#20816d">Illustrator i Character Designer</font></font></sup>
-
-							<br/>
-							<br/>
-							<p1>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla </p1>
+							<div id="h1">
+								<h1>Smith Anderson</h1>  
+							</div>
+							<div id="character">
+								<sup>Illustrator i Character Designer</sup>
+							</div>
+							<div id="character-text">
+							
+							
+							Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla
+								</div>
 						</div>
-                    </div>
-                </div>
-            
-            </div>
+ 
+					
 			<div class="socialmedia">
 				<a href="adres"><img class="img-fluid fb" src="http://via.placeholder.com/20x20"></a>
 				<a href="adres"><img class="img-fluid tw" src="http://via.placeholder.com/20x20"></a>
@@ -58,6 +60,7 @@
 				<a href="adres"><img class="img-fluid wo" src="http://via.placeholder.com/20x20"></a>
 			</div>
         </div>
+	
         
         <div class="container contact">
               
@@ -69,38 +72,53 @@
                                 <h2> Get In Touch</h2>
                                 <sup><p1> In order to get in touch use the contact from below:</p1></sup>
                             </div>
-                            
-                            <form action="notification/notification.html" method="post" onsubmit="return check_info();">
+              <!--<div class=".hidden-md-down"></div>-->
+                            <form id="submit-form"action="notification/notification.html" method="post" onsubmit="return check_info();">
 								<div class="col-xs-10">
-                                    <input id="name" name="name" placeholder="Name (Required)">
+                                    <div>
+							
+									<input id="name" name="name" placeholder="Name (Required)">
+										</div>
+									<div>
                                     <input id="email" name="email" type="email" placeholder="Email (Required)">
+										</div>
+									<div>
                                     <input id="subject" name="subject" maxlength="60" placeholder="Subject (Required)">
-                                    <input id="message" name="message" cols="x" rows="y" placeholder="Write your message here... (Required)">
+										</div>
+									<div>
+                                    <input type="text" id="message" name="message" cols="x" rows="y" placeholder="Write your message here... (Required)">
+										</div>
                                     <input id="submit" name="submit" type="submit" value="SEND">
 								</div>
                             </form> 
-                                     <div class="col-xs-6">
-										<div id="contact-info">
-                                            <p1><b><font color="white">Lorem ipsum </font></b> dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. </p1>
-                                        </div>
+                                    
+										
 
-                                        <div id="contact-adres">
-											<img class="img-fluid adres" src="http://via.placeholder.com/15x15">
+                                        
+										 
+										 
+									
+                            
+                        </div>
+										<div id="contact-info">
+											
+                                            <b><font color="white">Lorem ipsum </font></b> dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.
+										
+                                        </div>
+										<div id="contact-adres">
+											<img class="adres" src="http://via.placeholder.com/15x15">
                                             Elm St.14/05 Lost City
 
                                         </div>
                                         <div id="contact-phone">
-											<img class="img-fluid phone" src="http://via.placeholder.com/15x15">
+											<img class="phone" src="http://via.placeholder.com/15x15">
                                             +672462354256
 
                                         </div>
                                         <div id="contact-mail">
-											<img class="img-fluid email" src="http://via.placeholder.com/15x15">
+											<img class="email" src="http://via.placeholder.com/15x15">
                                             <a href="mailto:someone@example.com" target="_top">someone@example.com</a>
                                         </div>
-									</div>
-                            
-                        </div>
         </div>
         
         
@@ -110,25 +128,18 @@
                 <img class="img-fluid background-footer" src="image/background-footer.jpg"> -->
        
               
-              <img class="img-fluid background-footer" src="image/background-footer.jpg">
-        </div>
-        
-        
-        
-                   
 
-
-                   
-        
-        
         
      
        
-        <footer>
-    
-            
-    
-        </footer>
+			<footer>
+				<div id="copiright">
+				© Created by J.N for BP Copyright 2013 by PSDchat, all graphic reserverd for PSDchat
+				</div>   
+			</footer>
+			  	  
+		</div>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     
